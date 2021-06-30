@@ -17,22 +17,22 @@ class TentacleTwo extends React.Component {
     return (
       <div className="tentacle-two">
       <span className="fish-name">
-        { null /* Fish name goes here */}
+        {this.card.name}
       </span>
 
       <img alt="fish" className="fish-image" 
-      src={ tempImg /* Fish image goes here */} />
+      src={this.card.image} />
 
       <span className="fish-type">
-        { null /* Fish type goes here */}
+        { this.card.type}
       </span>
 
       <span className="fish-description">
-        { null /* Fish description goes here */}
+        {this.card.description}
       </span>
 
       <span className="fish-attack">
-        { null /* Fish attack goes here */}
+        {this.card.attack}
       </span>
 
     </div>
